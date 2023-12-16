@@ -1,0 +1,40 @@
+:root {
+    /* color    */
+    --gray: #808080;
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #128DFF;
+
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-md: 36px;
+
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.col-gray {
+    color: var(--gray);
+}
+
+.col-white {
+    color: var(--white);
+}
+
+.col-black {
+    color: var(--black);
+}
+
+.col-blue {
+    color: var(--blue);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
